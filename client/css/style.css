@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 80px 20px 30px;
+}
+
+.navigation ul {
+    display: inline-flex;
+
+}
+
+.navigation ul li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.container {
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+.header-item {
+    font-family: 'Ubuntu';
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.header-hr {
+    height: 1px;
+    border: none;
+    background-color: grey;
+    margin-bottom: 70px;
+}
+
+.main-header {
+    font-size: 30px;
+    font-weight: 500;
+    
+    margin-bottom: 30px;
+}
+
+.text {
+    margin-bottom: 30px;
+    line-height: 30px;
+    letter-spacing: 0.7px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.info ul li {
+    list-style-type: circle;
+}
+
+.info ul {
+    padding-left: 17px;
+
+    line-height: 30px;
+    letter-spacing: 0.7px;
+}
+
+.links {
+    text-decoration: none;
+
+    color: black;
+}
+
+.links:hover {
+    color: #f9e933;
+}
+
+.pic img {
+    width: 200px;
+}
+
+.small-bold-flex a {
+    text-decoration: none;
+    color: black;
+}
+
+.small-bold-flex a:hover {
+    font-size: 16px;
+}
+
+.list-of-questions {
+    margin: 0 auto;
+}
+
+.question {
+    display: block;
+    padding: 10px;
+
+    border: 2px solid #f9e933;
+    margin-bottom: 10px;
+}
+
+.question-inner {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Ubuntu';
+
+    margin-bottom: 10px;
+}
+
+.answer {
+    margin-left: 20px;
+}
+
+.container {
+    min-height: calc(80vh - 200px);
+}
+
+footer {
+    margin-top: 100px;
+    background: #f9e933;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20px 30px 50px 30px;
+    height: 200px;
+   
+}
+
+.big-text {
+    font-family: 'Ubuntu';
+    font-size: 24px;
+    font-weight: 300;
+
+    margin-bottom: 20px;
+}
+
+.small-text > span {
+    font-size: 20px;
+    font-style: italic;
+    
+}
+
+.small-text {
+    margin-bottom: 10px;
+}
+
+.smaller-text {
+    font-size: 14px;
+}
+
+.small-bold-flex {
+    display: flex;
+
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.map {
+    margin-right: 35px;
+}
+
+.to-do-inner {
+    display: block;
+    width: 100%;
+}
+
+.content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    display: block;
+    background-color: #f9e933;
+    padding: 20px 10px;
+}
+
+.tabs a span {
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Ubuntu';
+
+    display: inline-block;
+    padding: 7px 25px;
+    margin-right: 10px;
+    background-color: rgb(255, 253, 119);
+
+    border-radius: 10px 10px 0 0;
+}
+
+.tabs a span.active {
+    background-color: #f9e933;
+}
+
+.content ul li {
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(46, 46, 46);
+    font-size: 18px;
+    background-color: seashell;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.content {
+    padding: 0;
+    margin: 0;
+
+    display: block;
+    background-color: #f9e933;
+    padding: 20px 10px;
+}
+
+.content__input {
+    padding: 10px;
+    border: none;
+    border-radius: 10px 0 0 10px;
+}
+
+.content__input:focus {
+    outline: none;
+}
+
+.content__btn {
+    padding: 10px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+
+    background-color: seashell;
+    cursor: pointer;
+}
+
+.content__btn:focus {
+    outline: none;
+}
+
+.tags-h3 {
+    display: block;
+    background-color: #a59b2d;
+    color: aliceblue;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.addButton {
+    padding: 8px 5px;
+    background-color: beige;
+
+    margin-left: 20px;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 10px 5px;
+    border: 0;
+}
